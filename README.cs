@@ -1,2 +1,0 @@
-﻿# KOSMOS REST API
----
