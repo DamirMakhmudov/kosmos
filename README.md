@@ -14,7 +14,7 @@ Use your host as origin url. Make sure `http` or `https` protocol  from your adm
 
 For example:
 
-`http://damirasus/api`
+`http://damirasus:444/api`
 
 For `POST` request set `mode` key to request body to specify inner method your invoke
 
