@@ -5,6 +5,7 @@
 
 kosmos.sln
 .cs
+.csproj
 
 # User-specific files
 *.rsuser
