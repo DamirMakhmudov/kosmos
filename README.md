@@ -4,7 +4,8 @@ Repository contains the documentation for KOSMOS REST API based on Technical Dat
 
 ## Contains
 - [Overview](#overview)
-- [User](#user)
+- [Create User](#CreateUser-post)
+- [Update User](#UpdateUser-post)
 
 ## Overview
 
