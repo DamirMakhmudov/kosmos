@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 kosmos.sln
-.cs
-.csproj
+*.cs
+*.csproj
 
 # User-specific files
 *.rsuser
