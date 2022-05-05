@@ -127,4 +127,4 @@ Possible errors:
 |400 BadRequest|Any error
 |404 NotFound  |Method {mode} not found
 |404 NotFound  |Invalid 'mode' value. Should be 'createuser', 'updateuser' etc.
-|404 NotFound  |TDMS User sysname = '{sysname}' not found";
+|404 NotFound  |TDMS User sysname = {sysname} not found";
