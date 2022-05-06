@@ -50,12 +50,12 @@ Content-Type: application/json
 |-                  |-     |-       |-               
 |mode               |string|**true**|name of method your invoke
 |user               |object|**true**|object user contains TDMS user's properties
-|user.firstname     |sting |**true**|TDMS users's firstname
-|user.lastname      |sting |**true**|TDMS users's lastname
-|user.patronymic    |sting |false   |TDMS users's patronymic
-|user.password      |sting |false   |TDMS users's password
-|user.phone         |sting |false   |TDMS users's phone
-|user.email         |sting |false   |TDMS users's email
+|user.firstname     |string |**true**|TDMS users's firstname
+|user.lastname      |string |**true**|TDMS users's lastname
+|user.patronymic    |string |false   |TDMS users's patronymic
+|user.password      |string |false   |TDMS users's password
+|user.phone         |string |false   |TDMS users's phone
+|user.email         |string |false   |TDMS users's email
 
 ### Response
 ```
@@ -79,7 +79,7 @@ Possible errors:
 ---
 ## UpdateUser `POST`
 
-Updates attributes for existing TDMS User
+Updates attributes for existring TDMS User
 
 ### Request:
 ```
@@ -103,13 +103,13 @@ Content-Type: application/json
 |-                  |-     |-       |-               
 |mode               |string|**true**|name of method your invoke
 |user               |object|**true**|object user contains TDMS user's properties
-|user.sysname       |sting |**true**|TDMS users's firstname
-|user.firstname     |sting |**true**|TDMS users's firstname
-|user.lastname      |sting |**true**|TDMS users's lastname
-|user.patronymic    |sting |false   |TDMS users's patronymic
-|user.password      |sting |false   |TDMS users's password
-|user.phone         |sting |false   |TDMS users's phone
-|user.email         |sting |false   |TDMS users's email
+|user.sysname       |string |**true**|TDMS users's firstname
+|user.firstname     |string |false   |TDMS users's firstname
+|user.lastname      |string |false   |TDMS users's lastname
+|user.patronymic    |string |false   |TDMS users's patronymic
+|user.password      |string |false   |TDMS users's password
+|user.phone         |string |false   |TDMS users's phone
+|user.email         |string |false   |TDMS users's email
 
 ### Response
 ```
