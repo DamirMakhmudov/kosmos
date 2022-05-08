@@ -90,26 +90,32 @@ Content-Type: application/json
     "mode": "UpdateUser",
     "user": {
         "sysname": "USER_50DC2BB0_C6F7_4467_B0DA_8C24DAC292D7",
+        "login": "",
         "password": "",
         "firstname": "Вася",
         "lastname": "Пупкин",
         "patronymic": "Михайлович",
         "phone": "89274433788",
-        "email": "vpupkin@gmail.com"
+        "email": "vpupkin@gmail.com",
+        "position": "NODE_C9A2678A_A99B_4BF1_AD81_C497ACBF2DF9",
+        "department": "NODE_83E68FBA_0D8A_4D3C_8F82_95161D5BBCA5"
     }
 ```
 
-|Parameter          |Type  |Required|Description
-|-                  |-     |-       |-               
-|mode               |string|**true**|name of method your invoke
-|user               |object|**true**|object user contains TDMS user's properties
-|user.sysname       |string |**true**|TDMS users's firstname
-|user.firstname     |string |false   |TDMS users's firstname
-|user.lastname      |string |false   |TDMS users's lastname
-|user.patronymic    |string |false   |TDMS users's patronymic
-|user.password      |string |false   |TDMS users's password
-|user.phone         |string |false   |TDMS users's phone
-|user.email         |string |false   |TDMS users's email
+|Parameter      |Type  |Required|Description
+|-              |-     |-       |-               
+|mode           |string|**true**|name of method your invoke
+|user           |object|**true**|object user contains TDMS user's properties
+|user.sysname   |string|**true**|TDMS users's sysname
+|user.login     |string|false   |TDMS users's login
+|user.firstname |string|false   |TDMS users's firstname
+|user.lastname  |string|false   |TDMS users's lastname
+|user.patronymic|string|false   |TDMS users's patronymic
+|user.password  |string|false   |TDMS users's password
+|user.phone     |string|false   |TDMS users's phone
+|user.email     |string|false   |TDMS users's email
+|user.position  |string|false   |TDMS Position Classifier's sysname
+|user.department|string|false   |TDMS Department Classifier's sysname
 
 ### Response
 ```
