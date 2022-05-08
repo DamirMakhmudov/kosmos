@@ -79,7 +79,7 @@ Possible errors:
 ---
 ## UpdateUser `POST`
 
-Updates attributes for existring TDMS User
+Updates attributes for existing TDMS User
 
 ### Request:
 ```
